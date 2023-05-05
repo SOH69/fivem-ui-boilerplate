@@ -1,0 +1,21 @@
+{
+	"name": "fivem-mm-boilerplate",
+	"version": "1.0.0",
+	"description": "A boilerplate for Master Mind UI Work",
+	"main": "index.js",
+	"scripts": {
+		"build": "npm run clearbuild && node build.js",
+		"clearbuild": "rimraf ./dist",
+		"watch": "npm run clearbuild && cross-env IS_WATCH_MODE=1 node build.js"
+	},
+	"author": "Master Mind#8816",
+	"license": "MIT",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12",
+		"cross-env": "^7.0.3",
+		"esbuild": "^0.15.15",
+		"js-beautify": "^1.14.7",
+		"js-obfuscator": "^0.1.4",
+		"rimraf": "^3.0.2"
+	}
+}
