@@ -19,7 +19,7 @@ development dependencies needed. This boilerplate is inspired by `Project Error`
 ## Requirements
 
 * Node > v16
-* JQUERY
+* jQuery
 
 ## Getting Started
 
